@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code...'
-                git branch: 'main', url: 'https://github.com/ShranyaRudraksha/SeleniumDemo.git'
+                git branch: 'main', url: 'https://github.com/ShranyaRudraksha/selenium.git'
             }
         }
 
