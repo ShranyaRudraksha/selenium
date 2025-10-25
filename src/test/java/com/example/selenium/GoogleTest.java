@@ -21,5 +21,5 @@ public class GoogleTest {
 
         // Close browser
         driver.quit();
-    }
+    }   
 }
